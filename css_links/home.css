@@ -1,12 +1,12 @@
 body {
     margin: 0; padding: 0;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    /* position: relative;  url("imgs/main-bcg.jpeg")*/
     overflow-x: hidden;
 }
 
 * {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
 
 .welcomePage {
@@ -497,7 +497,7 @@ p {
     .features {
         grid-template-columns: 1fr 1fr;
     }
-}
+};
 
 @media (max-width: 840px) {
    .nav-link {
@@ -508,7 +508,7 @@ p {
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
-}
+};
 
 @media (max-width: 540px) {
 
@@ -528,13 +528,21 @@ p {
     }
 
     .cart_container .sideBar {
-        width: 95%;
+        width: 100%;
+    }
+    
+    .itemName {
+        letter-spacing: 0.05rem;
     }
 
     .nav-link {
         left: 20%;
     }
-}
+    
+     .nxtBtn {
+        margin-left: 4px;
+    }
+};
 
 @media (max-width: 300px) {
     .remove-item {
@@ -543,10 +551,10 @@ p {
     .itemName {
         font-size: 15px;
     } 
-}
+};
 
 @media (min-height: 610px) {
     .cart-items {
         height: 64vh;
     }
-}
+};
