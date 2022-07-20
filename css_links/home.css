@@ -14,7 +14,7 @@ body {
     height: 100vh; display: block;
     z-index: 2;
     margin-bottom: 50px; 
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://github.com/PsCode422/Comfy-Store/blob/53e8f3b4571716303a1f20f94d30b5d762699fda/imgs/main-bcg.jpeg") center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/PsCode422/Comfy-Store/blob/53e8f3b4571716303a1f20f94d30b5d762699fda/imgs/main-bcg.jpeg") center/cover;
 }
 
 :root {
