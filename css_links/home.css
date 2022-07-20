@@ -497,7 +497,7 @@ p {
     .features {
         grid-template-columns: 1fr 1fr;
     }
-};
+}
 
 @media (max-width: 840px) {
    .nav-link {
@@ -508,7 +508,7 @@ p {
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
-};
+}
 
 @media (max-width: 540px) {
 
@@ -542,7 +542,7 @@ p {
      .nxtBtn {
         margin-left: 4px;
     }
-};
+}
 
 @media (max-width: 300px) {
     .remove-item {
@@ -551,10 +551,10 @@ p {
     .itemName {
         font-size: 15px;
     } 
-};
+}
 
 @media (min-height: 610px) {
     .cart-items {
         height: 64vh;
     }
-};
+}
