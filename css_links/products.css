@@ -7,6 +7,7 @@ body {
 
 * {
     box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
   }
 
 :root {
@@ -594,7 +595,7 @@ h3 {
     .info {
         margin-right: 2rem;
     }
-}    
+}
 
 @media (max-width: 940px) {
 
@@ -681,7 +682,7 @@ h3 {
     }
 
     .cart_container .sideBar {
-        width: 98%;
+        width: 100%;
     }   
 
     .about-section {
@@ -715,6 +716,10 @@ h3 {
 
     .products-info h2 {
         font-size: 30px;
+    }
+    
+    .itemName {
+        letter-spacing: 0.05rem;
     }
 }
 
